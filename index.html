@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="index.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header class="header"> 
+        <img src="images/logo.png" alt="" class=logo />
+        <nav class="navbar">
+            <ul class="navbar-lists">
+        <li><a class="navbar-link home-link" href="#" >Home</a></li>
+          <li><a class="navbar-link about-link" href="#biodata-section">About</a></li>
+          <li><a class="navbar-link service-link" href="#service-section">Services</a></li>
+          <li><a class="navbar-link portfolio-link" href="#portfolio-section">Portfolio</a></li>
+          <li>
+            <a
+              class="navbar-link"
+              href="#contact-section"
+              target="_blank"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header> 
+    <main>
+        <section class="section-hero section">
+          <div class="container grid grid-two-col">
+            <div class="section-hero-data">
+              <div class="container">
+              <h1><span class="auto-type"></span></h1>
+              </div>
+              <p class="hero-para">
+                I'm Aradhya Garg. A Full stack Developer,
+                freelancer and I love to travel. Interested in working on ambitious projects with positive people.
+              </p>
+              <div>
+                <a href="#" target="_blank">
+                 <button class="name noselect">Hire Me</button>
+                </a>
+              </div>
+            </div>
+  
+            <div class="section-hero-image">
+              <div class="card"></div>
+              <img src="images/m11.jpg" alt="hero image" class="hero-img" />
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <section class="section-biodata section" id="biodata-section">
+        <div class="container grid grid-two-col">
+          <div class="bio-image">
+            <img src="images/m11.jpg" alt="bio data image" />
+          </div>
+          <div class="bio-data">
+            <h2 class="common-heading">About me</h2>
+            <p>
+              I can create responsive websites that are fast, easy to use, and build with best practices. 
+              The main area of my experties is front-end development, HTML, CSS, JS, building small and medium websites and also Getting my hands dirty on C++;
+            </p>
+
+            <div class="bio-data-stats">
+              <div class="bio-stats">
+                <h3>HTML</h3>
+                <div class="bio-progress-bar">
+                  <span>98%</span>
+                </div>
+              </div>
+              <div class="bio-stats">
+                <h3>CSS</h3>
+                <div class="bio-progress-bar bio-progress-2">
+                   <span>92%</span>
+                </div>
+              </div>
+              <div class="bio-stats">
+                <h3>JAVASCRIPT</h3>
+                <div class="bio-progress-bar bio-progress-3">
+                   <span>85%</span>
+                </div>
+              </div>
+              <div class="bio-stats">
+                <h3>REACT</h3>
+                <div class="bio-progress-bar bio-progress-4">
+                   <span>89%</span>
+                </div>
+              </div>
+              <div class="bio-stats">
+                <h3>JAVA</h3>
+                <div class="bio-progress-bar bio-progress-5">
+                   <span>80%</span>
+                </div>
+              </div>
+              <div class="bio-stats">
+                <h3>C++</h3>
+                <div class="bio-progress-bar bio-progress-6">
+                   <span>87%</span>
+                </div>
+              </div>
+            </div>
+  
+            <div class="bio-data-btn">
+              <a href="https://drive.google.com/file/d/1vD_pIM24_j_fZXkYzEMShztar_EDWaSE/view?usp=sharing" class="btn" download> Downlaod CV </a>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- ======================================== 
+          Our portfolio Section Start  
+    ========================================  -->
+    <section class="section section-portfolio" id="portfolio-section">
+      <div class="container">
+        <h2 class="common-heading">Latest Works</h2>
+        <p>
+          This are my some latest work done by me
+        </p>
+      </div>
+
+      <div class="p-btns">
+        <div class="btn p-btn" data-btn-num="1">Website</div>
+        
+        <div class="btn p-btn" data-btn-num="3">Design</div>
+      </div>
+
+      <div class="container grid grid-three-column portfolio-images">
+        <div class="img-overlay p-btn--1 p-image-not-acitve">
+          <img src="images/project1.PNG" alt="my works" height="300px"/>
+          <div class="overlay">
+            <a
+              href="https://aradhyagarg.github.io/Splash-Interiors/"
+              
+              class="common-heading"
+              >Project 1</a
+            >
+          </div>
+        </div>
+
+        <div class="img-overlay p-btn--3">
+          <img src="images/web.png" alt="my works" />
+          <div class="overlay">
+            <a
+              href="http://charcounter.thapaonlineclass.com/"
+              target="_thapa"
+              class="common-heading"
+              >Project 2
+            </a>
+          </div>
+        </div>
+
+        <div class="img-overlay p-btn--1 ">
+          <img src="images/project2.PNG" alt="portfolio images " height="300px"/>
+          <div class="overlay">
+            <a href="https://tangerine-maamoul-7de2ba.netlify.app" class="common-heading" >Project 3</a>
+          </div>
+        </div>
+        <div class="img-overlay p-btn--1 p-btn--2">
+          <img src="images/m12.jpg" alt="portfolio images " />
+          <div class="overlay">
+            <a href="" target="_blank" class="common-heading">Project 4</a>
+          </div>
+        </div>
+        <div class="img-overlay p-btn--2">
+          <img src="images/folio/5.jpg" alt="portfolio images " />
+          <div class="overlay">
+            <a href="" target="_blank" class="common-heading">Project 5</a>
+          </div>
+        </div>
+        
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================== 
+          Our Service Section Start  
+    ========================================  -->
+    <section class="section-services section section--hidden" id="service-section">
+      <div class="container">
+        <h2 class="common-heading">Services</h2>
+        <p>
+          This is my services section.
+        </p>
+      </div>
+      
+
+      <div class="container grid grid-three-col">
+        <div class="service-box">
+          <ion-icon class="serive-icon" name="desktop-outline"></ion-icon>
+          <h3>web Design</h3>
+          <p>
+            “What separates design from art is that design is meant to be... functional.”
+          </p>
+        </div>
+
+        <div class="service-box">
+          <ion-icon name="logo-javascript" class="serive-icon"></ion-icon>
+          <h3>Coding</h3><p>
+          “Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” 
+          </p>
+        </div>
+
+        <div class="service-box">
+          <ion-icon name="logo-react" class="serive-icon"></ion-icon>
+          <h3>web development</h3>
+          <p>
+            “We don't just build websites, we build websites that sells”
+          </p>
+        </div>
+
+        <div class="service-box">
+          
+          <ion-icon class="serive-icon" name="camera"></ion-icon>
+          <h3>photography</h3>
+          <p>
+            “There is one thing the photograph must contain, the humanity of the moment.”
+          </p>
+        </div>
+
+        <div class="service-box">
+          <ion-icon name="brush" class="serive-icon"></ion-icon>
+          <h3>Art</h3>
+          <p>
+            Art is a line around your thoughts.
+          </p>
+        </div>
+        <div class="service-box">
+          <ion-icon class="serive-icon" name="desktop"></ion-icon>
+          <h3>graphic design</h3>
+          <p>
+            “Design is intelligence made visible.”
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================== 
+          Our  Cotnact Us Section   
+    ========================================  -->
+
+    <section class="section section-contact " id="contact-section">
+      <div class="container">
+        <h2 class="common-heading">contact us</h2>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3509.7690606464835!2d77.35468391485696!3d28.396042382511794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cdce7f6ddd2e7%3A0xdaa28af3e8276f93!2sSPR%20Imperial%20Estate!5e0!3m2!1sen!2sin!4v1656565678506!5m2!1sen!2sin" width="100%" height="650px" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="column">
+          <form action="https://formspree.io/f/xrgjvlvg"
+        method="POST">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" required placeholder="Your name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" required placeholder="Your last name..">
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="india">India</option>
+            </select>
+            <label for="ename">Email</label>
+            <input type="text" id="ename" name="email" required placeholder="Your email..">
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+            <input type="submit" value="Submit" >
+          </form>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="section section-testimonial ">
+      <div class="container">
+        <h2 class="common-heading">Happy Client works</h2>
+      </div>
+    <div class="swiper mySwiper container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="swiper-client-msg">
+            <p>Nice work by aradhya , i got my site within just one month and also before the expected date , much impressed my work</p>
+          </div>
+          <div class="swiper-client-data grid grid-two-col ">
+            <figure>
+              <img loading="lazy" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="">
+              </figure>
+              <div class="client-data-details">
+                <p>Clay</p>
+                <p>Entrepruner</p>
+              </div>
+            </div>
+          </div>
+        <div class="swiper-slide">
+           <div class="swiper-client-msg">
+            <p>Great results. Enjoyable to work with, and most importantly, enabled us to have the presence on the web we needed to conduct business in today's market.</p>
+          </div>
+          <div class="swiper-client-data grid grid-two-col ">
+            <figure>
+              <img loading="lazy" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="">
+              </figure>
+              <div class="client-data-details">
+                <p>Garry</p>
+                <p>Manager</p>
+              </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+           <div class="swiper-client-msg">
+            <p>Always available to answer any questions. Very knowledgeable about the services they provide. Would recommend to anyone!</p>
+          </div>
+          <div class="swiper-client-data grid grid-two-col ">
+            <figure>
+              <img loading="lazy" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="">
+              </figure>
+              <div class="client-data-details">
+                <p>broad</p>
+                <p>Web Developer</p>
+              </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+           <div class="swiper-client-msg">
+            <p>It's always a pleasure to work with  and his team. They are personable, responsive, and results-oriented!</p>
+          </div>
+          <div class="swiper-client-data grid grid-two-col ">
+            <figure>
+              <img loading="lazy" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="">
+              </figure>
+              <div class="client-data-details">
+                <p>abharan</p>
+                <p>pp</p>
+              </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+           <div class="swiper-client-msg">
+            <p>Great results. Enjoyable to work with, and most importantly, enabled us to have the presence on the web we needed to conduct business in today's market.</p>
+          </div>
+          <div class="swiper-client-data grid grid-two-col ">
+            <figure>
+              <img loading="lazy" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="">
+              </figure>
+              <div class="client-data-details">
+                <p>ujjwal</p>
+                <p>Entrepruner</p>
+              </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+           <div class="swiper-client-msg">
+            <p>Always available to answer any questions. Very knowledgeable about the services they provide. Would recommend to anyone!</p>
+          </div>
+          <div class="swiper-client-data grid grid-two-col ">
+            <figure>
+              <img loading="lazy" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="">
+              </figure>
+              <div class="client-data-details">
+                <p>arnav</p>
+                <p>Entrepruner</p>
+              </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+           <div class="swiper-client-msg">
+            <p>Calvin: You know sometimes when I'm talking, my words can't keep up with my thoughts... I wonder why we think faster than we speak. Hobbes: Probably so we can think twice.</p>
+          </div>
+          <div class="swiper-client-data grid grid-two-col ">
+            <figure>
+              <img loading="lazy" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="">
+              </figure>
+              <div class="client-data-details">
+                <p>aditya</p>
+                <p>Entrepruner</p>
+              </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+           <div class="swiper-client-msg">
+            <p>Calvin: You know sometimes when I'm talking, my words can't keep up with my thoughts... I wonder why we think faster than we speak. Hobbes: Probably so we can think twice.</p>
+          </div>
+          <div class="swiper-client-data grid grid-two-col ">
+            <figure>
+              <img loading="lazy" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="">
+              </figure>
+              <div class="client-data-details">
+                <p>adu</p>
+                <p>Entrepruner</p>
+              </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+           <div class="swiper-client-msg">
+            <p>Calvin: You know sometimes when I'm talking, my words can't keep up with my thoughts... I wonder why we think faster than we speak. Hobbes: Probably so we can think twice.</p>
+          </div>
+          <div class="swiper-client-data grid grid-two-col ">
+            <figure>
+              <img loading="lazy" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="">
+              </figure>
+              <div class="client-data-details">
+                <p>Vinod thapa</p>
+                <p>Entrepruner</p>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+  <!-- ======================================== 
+         freelancing Section   
+    ========================================  -->
+
+    <section class="section section-freelancer ">
+      <div class="overlay"></div>
+      <div class="container">
+      <h2 >I am <span> available </span> for freelancing</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum voluptates similique nulla vitae natus </p>
+      <a href="/contact.html" class="btn"> HIRE ME </a>
+      </div>
+    </section>
+
+        <!-- ======================================== 
+          Our Footer   Section Start  
+    ========================================  -->
+  
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>About</h4>
+            <ul>
+              <li><a href="#">about us</a></li>
+              <li><a href="#">our services</a></li>
+              <li><a href="#">privacy policy</a></li>
+              <li><a href="#">affiliate program</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#biodata-section">About</a></li>
+              <li><a href="#service-section">Servies</a></li>
+              <li><a href="#portfolio-section">Portfolio</a></li>
+              <li><a href="#contact-section">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#service-section">Web Design</a></li>
+              <li><a href="#service-section">Web Development</a></li>
+              <li><a href="#service-section">photography</a></li>
+              <li><a href="#service-section">Coding</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://twitter.com/login"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/aradhya.garg.3992/?hl=en"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/aradhya-garg-087320224/"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <br><br>
+        <div class="f-credits">
+          <p>
+            Copyright ©2022 All rights reserved | This template is made with ❤
+            by Aradhya Garg
+          </p>
+        </div>
+      </div>
+   </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</body>
+</html>
